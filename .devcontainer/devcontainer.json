@@ -1,0 +1,58 @@
+// Codespaces evaluation environment for the
+// "Version Control & Virtual Environments" workshop.
+//
+// One config, three jobs: this same file runs in GitHub Codespaces (cloud),
+// in local VS Code via "Reopen in Container", and IS the consume-only Docker
+// demo ("the environment you're in right now is built from this file").
+//
+// It gives every participant — Windows, Mac, or Linux — an identical Linux
+// box with git, R + RStudio Server, and Python, reached entirely in a browser.
+{
+  "name": "VC & Virtual Environments — Codespaces eval",
+
+  // Rocker's RStudio image: R + RStudio Server, battle-tested.
+  // Bump this tag to try other R versions (e.g. 4.5.0). Pinning a version
+  // is itself part of the reproducibility lesson.
+  "image": "rocker/rstudio:4.4.1",
+
+  // IMPORTANT: rocker starts RStudio Server via its own container entrypoint
+  // (s6). Devcontainers replace the start command by default, which would
+  // stop RStudio from launching — so we keep the image's entrypoint.
+  "overrideCommand": false,
+  "remoteUser": "rstudio",
+
+  // Add Python alongside R via a standard devcontainer feature.
+  "features": {
+    "ghcr.io/devcontainers/features/python:1": {
+      "version": "3.12"
+    }
+  },
+
+  // RStudio Server listens on 8787. Forward it and pop it open automatically.
+  "forwardPorts": [8787],
+  "portsAttributes": {
+    "8787": {
+      "label": "RStudio Server",
+      "onAutoForward": "openBrowser"
+    }
+  },
+
+  // Skip the RStudio login prompt for a frictionless workshop.
+  "containerEnv": {
+    "DISABLE_AUTH": "true"
+  },
+
+  // Install renv (the R virtual-environment tool) so it's ready to demo.
+  // Kept light on purpose so you can judge a realistic build time.
+  "postCreateCommand": "R -q -e \"install.packages('renv', repos='https://cloud.r-project.org')\"",
+
+  // If you also open this in VS Code (not just RStudio), wire up R + Python.
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "REditorSupport.r",
+        "ms-python.python"
+      ]
+    }
+  }
+}

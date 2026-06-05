@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# R / renv
+.Rhistory
+.RData
+.Rproj.user/
+renv/library/
+renv/local/
+renv/cellar/
+renv/staging/
+# keep renv.lock (the snapshot) tracked — that's the whole point
+
+# Secrets — never commit these
+*.env
+.env
+*.pem
+# (last year's leaked GitHub token is exactly what this line guards against)
+
+# OS cruft
+.DS_Store
+Thumbs.db
