@@ -11,9 +11,10 @@
   "name": "VC & Virtual Environments — Codespaces eval",
 
   // Rocker's RStudio image: R + RStudio Server, battle-tested.
-  // Bump this tag to try other R versions (e.g. 4.5.0). Pinning a version
-  // is itself part of the reproducibility lesson.
-  "image": "rocker/rstudio:4.4.1",
+  // Pinning a version is itself part of the reproducibility lesson.
+  // (Note: versioned rocker tags freeze CRAN at a point-in-time snapshot,
+  // so stay within a release or two of current R.)
+  "image": "rocker/rstudio:4.6.1",
 
   // IMPORTANT: rocker starts RStudio Server via its own container entrypoint
   // (s6). Devcontainers replace the start command by default, which would
@@ -46,11 +47,11 @@
   // Kept light on purpose so you can judge a realistic build time.
   "postCreateCommand": "R -q -e \"install.packages('renv', repos='https://cloud.r-project.org')\"",
 
-  // If you also open this in VS Code (not just RStudio), wire up R + Python.
+  // VS Code owns git/terminal/Docker; RStudio owns R — so no R extension here
+  // (it would prompt every participant to install languageserver for nothing).
   "customizations": {
     "vscode": {
       "extensions": [
-        "REditorSupport.r",
         "ms-python.python"
       ]
     }
