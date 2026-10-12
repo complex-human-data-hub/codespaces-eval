@@ -5,8 +5,8 @@
 All you need for the workshop is a **free GitHub account** — everything else runs in your
 browser, on any laptop (Windows, Mac, Linux, borrowed — all fine).
 
-Sign up at [github.com/signup](https://github.com/signup) if you don't have one. Signing up
-with your Google account works and skips email verification.
+Sign up at <a href="https://github.com/signup" target="_blank" rel="noopener">github.com/signup</a>
+if you don't have one. Signing up with your Google account works and skips email verification.
 
 Already have an account? Make sure you can sign in, and you're ready.
 

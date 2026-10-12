@@ -11,7 +11,8 @@ all of which is waiting you can do with a coffee.
 
 ## Before you start: one thing you need
 
-A **free GitHub account** — sign up at [github.com/signup](https://github.com/signup) if
+A **free GitHub account** — sign up at
+<a href="https://github.com/signup" target="_blank" rel="noopener">github.com/signup</a> if
 you don't have one. Signing up with your Google account works and skips email verification.
 
 That's the only prerequisite. Windows, Mac, Linux, a borrowed laptop — all fine. Everything
@@ -88,7 +89,8 @@ RStudio opens in a new tab, no login needed.
 
 You're set up. Two housekeeping habits:
 
-- **Stop your codespace** when you're not using it: [github.com/codespaces](https://github.com/codespaces)
+- **Stop your codespace** when you're not using it:
+  <a href="https://github.com/codespaces" target="_blank" rel="noopener">github.com/codespaces</a>
   → **⋯** next to your codespace → **Stop codespace**. (It also stops itself after 30 idle
   minutes.)
 - **Reopening is fast:** next time, the same page → click your codespace → running again in
