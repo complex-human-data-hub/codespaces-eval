@@ -1,6 +1,9 @@
 # First steps
 
 > **Draft preview** — this page is being built for the October 22 workshop.
+>
+> 📱 **Prefer one step at a time?** There's a [step-by-step version](account.html) of this
+> page — same content, one step per screen, Next buttons.
 
 Welcome! This page gets you a complete, ready-to-code workshop environment — **in your
 browser, with nothing to install**. It takes five clicks and about ten minutes, almost
