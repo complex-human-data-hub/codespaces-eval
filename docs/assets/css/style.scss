@@ -27,3 +27,14 @@
 .wk-nav a.current { background: #159957; color: #fff; font-weight: bold; }
 .wk-nav a.wk-alt { border-color: #bbb; color: #666; margin-left: auto; }
 .wk-nav a.wk-alt:hover { background: #f3f3f3; }
+
+// Slimmer header banner on tablet/desktop (phone sizes keep the theme default)
+@media screen and (min-width: 42em) {
+  .page-header { padding: 1.5rem 4rem; }
+  .project-name { font-size: 1.9rem; margin-bottom: 0.25rem; }
+  .project-tagline { font-size: 1.05rem; margin-bottom: 0; }
+}
+@media screen and (min-width: 64em) {
+  .page-header { padding: 1.75rem 6rem; }
+  .project-name { font-size: 2.1rem; }
+}
