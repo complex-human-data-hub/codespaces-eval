@@ -1,3 +1,14 @@
+<nav class="wk-nav">
+<a href="account.html">Start</a>
+<a href="step1.html">1. Copy</a>
+<a href="step2.html">2. Launch</a>
+<a href="step3.html">3. Build</a>
+<a href="step4.html">4. Trust</a>
+<a href="step5.html">5. RStudio</a>
+<a href="done.html" class="current">Done</a>
+<a href="index.html" class="wk-alt">Single page ⤢</a>
+</nav>
+
 # Done — now stop it 🎉
 
 You're set up. Two housekeeping habits:
