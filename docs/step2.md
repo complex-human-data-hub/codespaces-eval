@@ -19,7 +19,7 @@ On your new repository's page: click the green **Code** button → **Codespaces*
 ![The Codespaces tab with the Create button](images/codespaces-create-button-billing-footer.png)
 
 > **"Paid for by you"?** That footer means the codespace runs on your account's **free
-> monthly allowance** (120 core-hours — the whole workshop uses about 4). No payment
+> monthly allowance** (120 core-hours; the whole workshop uses about 4). No payment
 > details are involved, and GitHub stops rather than charges if you ever run out.
 
 <div style="display:flex;justify-content:space-between;margin-top:2.5rem;">

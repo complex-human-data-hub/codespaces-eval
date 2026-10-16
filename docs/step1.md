@@ -19,12 +19,12 @@ Signed in to GitHub, open the workshop repository link (we'll share it), and cli
 On the form:
 
 - **Owner:** your account (already selected)
-- **Repository name:** anything you like — `vc-workshop` works
-- **Visibility:** choose **Private** (the form defaults to Public — flip it)
+- **Repository name:** anything you like; `vc-workshop` works
+- **Visibility:** choose **Private** (the form defaults to Public, so flip it)
 
 ![Create a new repository form, with Private selected](images/create-repo-private-selected.png)
 
-Click **Create repository**. You now own a complete copy of the materials — this is *your*
+Click **Create repository**. You now own a complete copy of the materials. This is *your*
 repository, and everything you do in the workshop happens in it.
 
 <div style="display:flex;justify-content:space-between;margin-top:2.5rem;">

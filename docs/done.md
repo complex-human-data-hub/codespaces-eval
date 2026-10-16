@@ -9,7 +9,7 @@
 <a href="index.html" class="wk-alt">Single page ⤢</a>
 </nav>
 
-# Done — now stop it 🎉
+# Done: now stop it 🎉
 
 You're set up. Two housekeeping habits:
 
@@ -31,7 +31,7 @@ You're set up. Two housekeeping habits:
 | RStudio tab stuck "getting your codespace ready" | Ports panel → copy icon → paste address into a new tab once |
 | Copy-paste doesn't work | Click the padlock in the address bar → allow Clipboard |
 
-Still stuck? Bring it to the workshop — the first fifteen minutes are set aside for exactly
+Still stuck? Bring it to the workshop: the first fifteen minutes are set aside for exactly
 this, and two helpers will be roaming.
 
 <div style="display:flex;justify-content:space-between;margin-top:2.5rem;">

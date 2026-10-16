@@ -20,10 +20,10 @@ At the bottom of the editor, find the **Ports** tab (next to Terminal). Hover ov
 
 RStudio opens in a new tab, no login needed.
 
-> ⚠️ **Always use the globe icon** — don't type the address by hand, and don't change the
+> ⚠️ **Always use the globe icon**: don't type the address by hand, and don't change the
 > port's visibility (Private is what keeps your RStudio yours). If the new tab sticks on
 > *"getting your codespace ready"* for more than half a minute: go back to the Ports panel,
-> use the **copy icon** to copy the address, and paste it into a new tab once — after that
+> use the **copy icon** to copy the address, and paste it into a new tab once; after that
 > the globe works normally.
 
 <div style="display:flex;justify-content:space-between;margin-top:2.5rem;">
