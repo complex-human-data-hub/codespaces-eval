@@ -1,12 +1,11 @@
 <nav class="wk-nav">
-<a href="account.html">Start</a>
+<a href="index.html">Start</a>
 <a href="step1.html">1. Copy</a>
 <a href="step2.html" class="current">2. Launch</a>
 <a href="step3.html">3. Build</a>
 <a href="step4.html">4. Trust</a>
 <a href="step5.html">5. RStudio</a>
 <a href="done.html">Done</a>
-<a href="index.html" class="wk-alt">Single page ⤢</a>
 </nav>
 
 # Launch your codespace
