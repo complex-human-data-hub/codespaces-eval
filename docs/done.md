@@ -8,17 +8,22 @@
 <a href="done.html" class="current">Done</a>
 </nav>
 
-# Done: now stop it 🎉
+# Done: you're ready 🎉
 
-You're set up. Two housekeeping habits:
+That's the whole setup. **Leave your codespace running** for the rest of the workshop, and
+keep both tabs open: the editor, and RStudio.
 
-- **Stop your codespace** when you're not using it:
+## After the workshop
+
+- **Stop your codespace:**
   <a href="https://github.com/codespaces" target="_blank" rel="noopener">github.com/codespaces</a>
   → click the **⋯** (three dots) next to your codespace → **Stop codespace**.
   (It also stops itself after 30 idle minutes.)
-- **Reopening is fast:** next time, the same page → click your codespace → running again in
-  under a minute. Having done this page before the workshop, your setup on the day takes
-  **less than 60 seconds**.
+- **Your work is already safe** if you pushed it: everything you commit and push lives in
+  your GitHub repository, so the codespace itself is disposable. Delete it after a week or
+  two; your repository stays.
+- **Coming back to it later?** Reopening a stopped codespace takes under a minute: same
+  page, click your codespace.
 
 ## If something went wrong
 
@@ -30,8 +35,8 @@ You're set up. Two housekeeping habits:
 | RStudio tab stuck "getting your codespace ready" | Ports panel → copy icon → paste address into a new tab once |
 | Copy-paste doesn't work | Click the padlock in the address bar → allow Clipboard |
 
-Still stuck? Bring it to the workshop: the first fifteen minutes are set aside for exactly
-this, and two helpers will be roaming.
+Still stuck? Flag down a helper in the room, or post in the Zoom chat; that's what they're
+there for.
 
 <div style="display:flex;justify-content:space-between;margin-top:2.5rem;">
 <a href="step5.html" style="padding:0.6rem 1.2rem;background:#eee;color:#333;border-radius:0.3rem;text-decoration:none;">← Back</a>
