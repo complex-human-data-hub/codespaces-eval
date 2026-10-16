@@ -13,9 +13,9 @@
 
 You're set up. Two housekeeping habits:
 
-- **Stop your codespace** when you're not using it: open
-  <a href="https://github.com/codespaces" target="_blank" rel="noopener">github.com/codespaces</a>,
-  click the **⋯** (three dots) next to your codespace, then choose **Stop codespace**.
+- **Stop your codespace** when you're not using it:
+  <a href="https://github.com/codespaces" target="_blank" rel="noopener">github.com/codespaces</a>
+  → click the **⋯** (three dots) next to your codespace → **Stop codespace**.
   (It also stops itself after 30 idle minutes.)
 - **Reopening is fast:** next time, the same page → click your codespace → running again in
   under a minute. Having done this page before the workshop, your setup on the day takes
