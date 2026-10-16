@@ -5,7 +5,7 @@
 <a href="step3.html">3. Build</a>
 <a href="step4.html">4. Trust</a>
 <a href="step5.html" class="current">5. RStudio</a>
-<a href="done.html">Done</a>
+<a href="done.html">Setup complete</a>
 </nav>
 
 # Open RStudio
@@ -27,5 +27,5 @@ RStudio opens in a new tab, no login needed.
 
 <div style="display:flex;justify-content:space-between;margin-top:2.5rem;">
 <a href="step4.html" style="padding:0.6rem 1.2rem;background:#eee;color:#333;border-radius:0.3rem;text-decoration:none;">← Back</a>
-<a href="done.html" style="padding:0.6rem 1.2rem;background:#159957;color:#fff;border-radius:0.3rem;text-decoration:none;font-weight:bold;">Done →</a>
+<a href="done.html" style="padding:0.6rem 1.2rem;background:#159957;color:#fff;border-radius:0.3rem;text-decoration:none;font-weight:bold;">Setup complete →</a>
 </div>

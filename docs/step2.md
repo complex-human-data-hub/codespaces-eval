@@ -5,7 +5,7 @@
 <a href="step3.html">3. Build</a>
 <a href="step4.html">4. Trust</a>
 <a href="step5.html">5. RStudio</a>
-<a href="done.html">Done</a>
+<a href="done.html">Setup complete</a>
 </nav>
 
 # Launch your codespace

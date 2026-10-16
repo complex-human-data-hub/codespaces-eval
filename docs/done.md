@@ -5,10 +5,10 @@
 <a href="step3.html">3. Build</a>
 <a href="step4.html">4. Trust</a>
 <a href="step5.html">5. RStudio</a>
-<a href="done.html" class="current">Done</a>
+<a href="done.html" class="current">Setup complete</a>
 </nav>
 
-# Done: you're ready 🎉
+# Setup complete 🎉
 
 That's the whole setup. **Leave your codespace running** for the rest of the workshop, and
 keep both tabs open: the editor, and RStudio.
