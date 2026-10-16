@@ -79,7 +79,7 @@ When the build finishes, a dialog asks whether you trust the authors of this cod
 The author is **you**: you created this repository in Step 1. Click the green
 **Trust Folder & Continue**. (Clicked Cancel by accident? Just reload the page.)
 
-While you're at it: your browser may also ask permission for the **clipboard**: click
+While you're at it, your browser may also ask permission for the **clipboard**: click
 **Allow**. That's what lets you copy-paste commands during the workshop.
 
 ## Step 5: Open RStudio {#step5}
