@@ -13,7 +13,7 @@
 That's the whole setup. **Leave your codespace running** for the rest of the workshop, and
 keep both tabs open: the editor, and RStudio.
 
-## After the workshop
+## Cleaning up after the workshop
 
 - **Stop your codespace:**
   <a href="https://github.com/codespaces" target="_blank" rel="noopener">github.com/codespaces</a>
